@@ -8,5 +8,5 @@ const nextConfig = {
     },
   };
   
-  module.exports = nextConfig; // ✅ Use `module.exports` only in `.js`
+  module.exports = nextConfig; // ✅ Use `module.exports` only in `.js`rm -rf node_modules package-lock.json
   
