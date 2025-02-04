@@ -100,3 +100,17 @@ if (!self.define) {
   }));
   //# sourceMappingURL=sw.js.map
   
+  self.addEventListener("sync", (event) => {
+    if (event.tag === "syncSession") {
+      event.waitUntil(syncSessionData());
+    }
+  });
+  
+  async function syncSessionData() {
+    const session = await getSession(); // Fetch session
+    if (session) {
+      // Store in IndexedDB for offline access
+      const db = await openDatabase();
+      db.put("session", session);
+    }
+  }

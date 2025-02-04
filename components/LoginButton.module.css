@@ -1,0 +1,103 @@
+/* LoginButton.module.css */
+
+/* Button for Sign Out */
+.buttonRed {
+    display: flex;
+    
+    width: auto;
+    place-items: center;
+     /* Combined padding for consistency */
+    background-color: #070707; /* Softer blue */
+    color: rgb(255, 255, 255);
+    border-radius: 9999px; /* Fully rounded button */
+    font-weight: 600; /* Bold text */
+    font-size: 1rem; /* Slightly larger text for better readability */
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background-color  0.7s,  color 0.7s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for modern effect */
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  .buttonRed:hover {
+    background-color: #ffffff; /* Darker red on hover */
+    color:  black;
+    transition: background-color  0.7s, color 0.7s;
+    
+  }
+  
+  .buttonBlue {
+    display: flex;
+    gap: 0.5rem;
+    width: auto;
+    place-items: center;
+    padding: 0.2rem 0.2rem; /* Combined padding for consistency */
+    background-color: #f4f4f4; /* Softer blue */
+    color: rgb(9, 9, 9);
+    border-radius: 9999px; /* Fully rounded button */
+    font-weight: 600; /* Bold text */
+    font-size: 1rem; /* Slightly larger text for better readability */
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for modern effect */
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  .buttonBlue:hover {
+    background-color: #357abd; /* Darker blue on hover */
+    transition: background-color 0.3s, transform 0.2s ease;
+  }
+  
+  .buttonBlueHidden{
+    display: none;
+    transition: background-color 0.3s, transform 0.2s ease;
+  }
+
+  /* User Avatar */
+  .userAvatar {
+    width: 2rem; /* Slightly larger for a more prominent look */
+    height: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    /* Small margin for spacing */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: background-color 0.3s, border-width 0.3s; /* Smooth transition */
+  }
+
+  .userAvatar:hover {
+background-color: rgb(152, 151, 151);
+    border-width: 2px;
+  }
+
+  .alienAvatar {
+    width: 2rem; 
+    height:2rem;
+    padding: 0.2rem;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 0.5rem; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+  }
+
+  .alienAvatar:hover {
+    border-color: rgb(152, 151, 151);
+        border-width: 2px;
+      }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .carratActive{
+    rotate: 90deg;
+    justify-items: center;
+    
+  }
+
+  .carratInActive{
+    rotate: -90deg;
+  }

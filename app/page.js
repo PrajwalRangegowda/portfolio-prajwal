@@ -1,6 +1,8 @@
+"use client";
 
 import styles from "./page.module.css";
 import IntroSection from "../components/IntroSection";
+
 
 export default function Home() {
   return (
@@ -9,7 +11,6 @@ export default function Home() {
         <IntroSection/>
         {/* this is comment */}
       </main>
-   
     </div>
   );
 }

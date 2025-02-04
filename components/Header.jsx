@@ -4,10 +4,39 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import { useEffect, useState } from "react";
+import SideMenu from "./SideMenu";
+import { SessionProvider, getSession } from "next-auth/react";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [logoHeight, setLogoHeight] = useState(35);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const checkSession = async () => {
+      const session = await getSession();
+      if (!session) {
+        console.log("No active session, redirecting to login...");
+      }
+      setLoading(false);
+    };
+
+    checkSession();
+  }, []);
+
+
+  useEffect(() => {
+    const loadSession = async () => {
+      const session = await getSession();
+      if(session){
+        localStorage.setItem("sessionData", JSON.stringify(session));
+      }else{
+        localStorage.removeItem("sessionData");
+      }
+    };
+
+    loadSession();
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,8 +56,9 @@ export default function Header() {
   }, []);
 
   return (
+      <SessionProvider>
     <header className={`${scrolled ? styles.scrolled : styles.header}`}>
-      
+
         <motion.div className={styles.siteLogo}
         initial={{ opacity: 0 }} // Start with opacity 0 (hidden)
         animate={{ opacity: 1 }} // Animate to opacity 1 (visible)
@@ -60,19 +90,8 @@ export default function Header() {
           </Link>
         </motion.div>
       
-      <nav className={styles.nav}>
-        <ul>
-          <li>
-            <a href="/design">Design</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="https://blog.prajwalrangegowda.com">Blog</a>
-          </li>
-        </ul>
-      </nav>
+      <SideMenu/>
     </header>
+      </SessionProvider>
   );
 }

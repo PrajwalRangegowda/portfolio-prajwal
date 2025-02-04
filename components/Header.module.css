@@ -30,6 +30,8 @@
     font-family: Anta;
 }
 
+
+
 .nav ul li:hover {
     color: #534f4f;
     transition: color 200ms ease-in-out;
