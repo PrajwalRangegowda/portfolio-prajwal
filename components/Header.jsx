@@ -2,10 +2,11 @@
 import styles from "./Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import SideMenu from "./SideMenu";
 import { SessionProvider, getSession } from "next-auth/react";
+import LinkedInLogin from "./SocialLogins/LinkedInLogin";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -24,13 +25,12 @@ export default function Header() {
     checkSession();
   }, []);
 
-
   useEffect(() => {
     const loadSession = async () => {
       const session = await getSession();
-      if(session){
+      if (session) {
         localStorage.setItem("sessionData", JSON.stringify(session));
-      }else{
+      } else {
         localStorage.removeItem("sessionData");
       }
     };
@@ -56,13 +56,13 @@ export default function Header() {
   }, []);
 
   return (
-      <SessionProvider>
-    <header className={`${scrolled ? styles.scrolled : styles.header}`}>
-
-        <motion.div className={styles.siteLogo}
-        initial={{ opacity: 0 }} // Start with opacity 0 (hidden)
-        animate={{ opacity: 1 }} // Animate to opacity 1 (visible)
-        transition={{ duration: 1 }} // Duration of the fade-in
+    <SessionProvider>
+      <header className={`${scrolled ? styles.scrolled : styles.header}`}>
+        <motion.div
+          className={styles.siteLogo}
+          initial={{ opacity: 0 }} // Start with opacity 0 (hidden)
+          animate={{ opacity: 1 }} // Animate to opacity 1 (visible)
+          transition={{ duration: 1 }} // Duration of the fade-in
         >
           <Link href={"/"}>
             <Image
@@ -89,9 +89,10 @@ export default function Header() {
             Prajwal Rangegowda
           </Link>
         </motion.div>
-      
-      <SideMenu/>
-    </header>
-      </SessionProvider>
+
+        <SideMenu />
+        
+      </header>
+    </SessionProvider>
   );
 }

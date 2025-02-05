@@ -3,6 +3,7 @@ import { useSession } from "next-auth/react";
 import LoginButton from "./LoginButton";
 import styles from "./Header.module.css";
 
+
 export default function SideMenu() {
   const { data: session } = useSession(); // Get session info
 
@@ -25,6 +26,7 @@ export default function SideMenu() {
         )}
         <li>
           <LoginButton />
+          
         </li>
       </ul>
     </nav>

@@ -2,6 +2,7 @@
 import styles from "./IntroSection.module.css";
 import { motion } from "framer-motion";
 
+
 export default function IntroSection() {
   return (
     <motion.section

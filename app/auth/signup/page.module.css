@@ -1,0 +1,88 @@
+/* Signup.module.css */
+.page{
+    height: 85vh;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+}
+/* General styling for the form container */
+.formContainer {
+    max-width: 380px;
+    margin: auto;
+    padding: 2rem;
+    vertical-align: middle;
+    place-self: center;
+    place-items: center;
+    
+    background-color: #333232;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Style */
+  .h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* Styling for form inputs */
+  .inputField {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focus state for inputs */
+  .inputField:focus {
+    border: 1px solid #3a8dff;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  /* Submit button styling */
+  .button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3a8dff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2678c1;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for the bottom text and link */
+  .p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .a {
+    color: #3a8dff;
+    text-decoration: none;
+  }
+  
+  .a:hover {
+    text-decoration: underline;
+  }
+  
