@@ -9,6 +9,7 @@ export default function Home() {
     <div className={`${styles.page} ${styles.bodyDimension} `}>
       <main className={styles.main}>
         <IntroSection/>
+        
         {/* this is comment */}
       </main>
     </div>

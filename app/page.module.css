@@ -10,7 +10,7 @@
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
- 
+  min-height: 70dvh;
   padding: 50px;
   font-family: var(--font-geist-sans);
 }

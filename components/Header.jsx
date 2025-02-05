@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import SideMenu from "./SideMenu";
 import { SessionProvider, getSession } from "next-auth/react";
-import LinkedInLogin from "./SocialLogins/LinkedInLogin";
+
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
