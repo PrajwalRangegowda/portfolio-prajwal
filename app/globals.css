@@ -5,52 +5,49 @@
   --background-color-dark: #00000098;
   --filter-light: grayscale(100%);
   --filter-dark: none;
-  --specular-color-light: #2b2b2b88;  /* Black for light theme */
+  --specular-color-light: #2b2b2b88; /* Black for light theme */
   --specular-color-dark: #c11d1d6b;
   font-size: 16px;
 }
 
 :root {
-  
   /* -- General Colors -- */
-  --primary-color: #3b82f6;        /* Deep muted blue */
-  --secondary-color: #a0a0a0;      /* Soft neutral gray */
-  --background-color: #0a0a0a;     /* True deep black */
-  --foreground-color: #f5f5f5;     /* Soft white for readability */
-  --muted-text-color: #95a5a6;     /* Softer muted text */
-  --border-color: #2a2a2a;         /* Subtle dark gray border */
+  --primary-color: #3b82f6; /* Deep muted blue */
+  --secondary-color: #a0a0a0; /* Soft neutral gray */
+  --background-color: #0a0a0a; /* True deep black */
+  --foreground-color: #f5f5f5; /* Soft white for readability */
+  --muted-text-color: #95a5a6; /* Softer muted text */
+  --border-color: #2a2a2a; /* Subtle dark gray border */
   --shadow-color: rgba(0, 0, 0, 0.4); /* Deeper shadow for depth */
 
   /* -- UI Components -- */
-  --header-bg: #121212;            /* Deep black header */
-  --nav-bg: #181818;               /* Rich black navigation */
-  --card-bg: #1a1a1a;              /* Slightly lifted black for depth */
-  --modal-bg: #1e1e1e;             /* Dark but distinct modal */
-  --button-bg: #3b82f6;            /* Refined deep blue */
-  --button-text-color: #ffffff;     /* Crisp white text */
-  --button-hover-bg: #2563eb;      /* Slightly deeper blue on hover */
+  --header-bg: #121212; /* Deep black header */
+  --nav-bg: #181818; /* Rich black navigation */
+  --card-bg: #1a1a1a; /* Slightly lifted black for depth */
+  --modal-bg: #1e1e1e; /* Dark but distinct modal */
+  --button-bg: #3b82f6; /* Refined deep blue */
+  --button-text-color: #ffffff; /* Crisp white text */
+  --button-hover-bg: #2563eb; /* Slightly deeper blue on hover */
 
   /* -- Form Elements -- */
-  --input-bg: #222;                /* Dark input field */
-  --input-border: #2f2f2f;         /* Subtle structured border */
-  --input-text: #ffffff;           /* Clean white text */
-  --input-placeholder: #757575;    /* Understated gray placeholder */
-
+  --input-bg: #222; /* Dark input field */
+  --input-border: #2f2f2f; /* Subtle structured border */
+  --input-text: #ffffff; /* Clean white text */
+  --input-placeholder: #757575; /* Understated gray placeholder */
 
   /* -- Status Colors -- */
-  --success-color: #27ae60;        /* Soft green */
-  --error-color: #c0392b;          /* Muted red */
-  --warning-color: #f39c12;        /* Warm orange */
-  --info-color: #2980b9;           /* Soft blue */
-
+  --success-color: #27ae60; /* Soft green */
+  --error-color: #c0392b; /* Muted red */
+  --warning-color: #f39c12; /* Warm orange */
+  --info-color: #2980b9; /* Soft blue */
 
   /* -- Typography -- */
-  --font-family: 'Inter', sans-serif;
+  --font-family: "Inter", sans-serif;
   --primary-font-family: Anta;
   --font-size: 16px;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
-  
+
   /* -- Spacing & Layout -- */
   --xxs: clamp(0.1rem, 0.3vw, 0.2rem);
   --xs: clamp(0.2rem, 0.6vw, 0.4rem);
@@ -59,8 +56,6 @@
   --lg: clamp(1rem, 2.5vw, 1.3rem);
   --xl: clamp(1.25rem, 3vw, 1.75rem);
   --xxl: clamp(1.5rem, 4vw, 2.25rem);
-
-
 
   /* -- Borders & Radius -- */
   --border-radius-sm: 0.25rem;
@@ -73,29 +68,29 @@
   --box-shadow-lg: 0rem 0.5rem 1rem var(--shadow-color);
 }
 
-
-
 html,
 body {
   margin-top: 2rem;
   max-width: 100vw;
   overflow-x: hidden;
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 body {
   color: var(--foreground-color);
   background: var(--background-color);
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 @media (max-width: 568px) {
   body {
-    margin-top: 4rem; 
+    margin-top: 4rem;
   }
-  
 }
 
 * {
@@ -109,7 +104,6 @@ a {
   text-decoration: none;
 }
 
-
 /* body {
   background-image: url('/noise.svg');
   background-repeat: repeat;
@@ -122,9 +116,6 @@ a {
   overflow: hidden;
    
 } */
-
-
-
 
 /* @keyframes movebackground{
   0%{
