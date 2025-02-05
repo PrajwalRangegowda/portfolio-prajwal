@@ -44,9 +44,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} `}>
-        <DynamicGrid/>
       <Header />
         {children }
+        <DynamicGrid/>
         <Footer />
       </body>
     </html>
