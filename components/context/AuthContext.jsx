@@ -22,7 +22,7 @@ export const AuthProvider = ({ children }) => {
   const logout = () => signOut(); // Custom logout handler
 
   return (
-    <AuthContext.Provider value={{ user, status, login, logout }}>
+    <AuthContext.Provider value={{ user,session, status, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
