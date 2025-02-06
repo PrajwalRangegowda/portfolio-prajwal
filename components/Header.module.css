@@ -87,7 +87,7 @@
     
     
     .scrolled {
-        display: block;
+        display: flex;
     }
 
     .nav ul {

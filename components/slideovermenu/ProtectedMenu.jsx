@@ -14,7 +14,7 @@ export default function ProtectedMenu(props){
         <hr/>
         {session && ( 
           <li>
-            <a href="/protected"><FontAwesomeIcon icon={faGear} size="sm"/>&nbsp;Settings</a>
+            <a href="/protected"><FontAwesomeIcon icon={faGear} size="sm" />&nbsp;Settings</a>
           </li>
         )}
         
