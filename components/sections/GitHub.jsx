@@ -8,7 +8,7 @@ export default function GitHub(){
 
     return(
         <div className={styles.githubcalendar}>
-          <h1 className={styles.h1}> {user?.name ?? ""} GitHub Contributions</h1>
+          <h1 className={styles.h1}> Hi! {user?.name.split(" ")[0] ?? ""} Check out Prajwal's GitHub Contributions</h1>
         <GitHubCalendar username="PrajwalRangegowda" />
       </div>
     )
