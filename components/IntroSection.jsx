@@ -1,6 +1,7 @@
 "use client";
 import styles from "./IntroSection.module.css";
 import { motion } from "framer-motion";
+import GitHub from "./sections/GitHub";
 
 
 export default function IntroSection() {
@@ -23,9 +24,10 @@ export default function IntroSection() {
         </h1>
         <h2 className={styles.role}>Designer & Developer</h2>
         <p className={styles.description}>
-          Bridging the gap between <strong>design and technology</strong>—  
-          from crafting <strong>sophisticated, sustainable architecture </strong>  
-            to building <strong>seamless digital experiences</strong> with React & TypeScript.
+          Bridging the gap between <strong>design and technology</strong>— from
+          crafting <strong>sophisticated, sustainable architecture </strong>
+          to building <strong>seamless digital experiences</strong> with React &
+          TypeScript.
         </p>
       </motion.div>
 
@@ -81,8 +83,7 @@ export default function IntroSection() {
           Let's Connect
         </motion.a>
       </motion.div>
-      
-
+      <GitHub/>
     </motion.section>
   );
 }

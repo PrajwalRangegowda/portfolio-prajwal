@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 950px) {
+    .githubcalendar{
+      display: none;
+      
+    }
+    
+  }
+
+  .h1{
+    margin: 2rem;
+  }
