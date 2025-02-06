@@ -9,6 +9,5 @@ export default async function ProtectedPage() {
 
       redirect("/"); // Redirect to home if not logged in
     }
-    console.log(session.user?.name?.split(" ")[0]);
   return <div>Protected Content, Welcome {session.user?.name}!</div>;
 }

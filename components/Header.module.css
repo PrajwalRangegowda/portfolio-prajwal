@@ -30,6 +30,12 @@
     font-family: Anta;
 }
 
+.NavLinks{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    place-items: center;
+}
 
 
 .nav ul li:hover {
@@ -76,11 +82,10 @@
     -webkit-backdrop-filter: blur(10px);
 }
 
-@media screen and (max-width: 568px) {
-    .header {
-        display: block;
-    }
+@media screen and (max-width: 650px) {
 
+    
+    
     .scrolled {
         display: block;
     }
@@ -104,6 +109,11 @@
     .nav {
         margin-top: 10px;
     }
+
+    .NavLinks{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 345px) {
@@ -142,4 +152,21 @@
 
 .siteLogo {
     color: white; /* Ensure logos and site names are visible */
+}
+
+
+.NavLinksBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 568px){
+    
+}
+
+.Avatar{
+    background-color: transparent;
+    border: none;
 }

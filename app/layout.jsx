@@ -4,7 +4,6 @@ import "./globals.css";
 import styles from "./layout.module.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { SessionProvider } from "next-auth/react";
 import DynamicGrid from "@/components/DynamicGrid";
 
 

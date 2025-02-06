@@ -3,15 +3,24 @@ import styles from "./Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import SideMenu from "./SideMenu";
 import { SessionProvider, getSession } from "next-auth/react";
-
+import SlideOverMenu from "./slideovermenu/SlideOverMenu";
+import LoginButton from "./LoginButton";
+import LoginAvatar from "./LoginAvatar";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [logoHeight, setLogoHeight] = useState(35);
   const [loading, setLoading] = useState(true);
+
+  const slideOverMenuRef = useRef();
+
+  const openMenu = () => {
+    slideOverMenuRef.current.toggleMenu();
+  };
+
 
   useEffect(() => {
     const checkSession = async () => {
@@ -89,9 +98,18 @@ export default function Header() {
             Prajwal Rangegowda
           </Link>
         </motion.div>
-
-        <SideMenu />
-        
+        <div className={styles.NavLinksBar}>
+          <div className={styles.NavLinks}>
+            <SideMenu Class={styles.nav} />
+            <button onClick={openMenu} className={styles.Avatar} >
+              <LoginAvatar />
+            {/* <LoginButton /> */}
+            </button>
+          </div>
+          
+                    
+          <SlideOverMenu ref={slideOverMenuRef} />
+        </div>
       </header>
     </SessionProvider>
   );

@@ -1,0 +1,127 @@
+/* Slideover Menu Container */
+
+.Backdrop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.478);
+    border: none;
+    width: 110vw;
+    height: 100vh; /* Change from 100vw to 100vh to cover full screen height */
+    z-index: 900; /* Backdrop stays below the menu and menuContent */
+}
+
+.menu {
+    position: fixed;
+    width: 350px;
+    right: -350px;
+    top: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.777);
+    opacity: 0;
+    transition: right 0.3s ease-in-out, opacity 0.3s;
+    transition: transform 0.5s ease-in-out;
+    z-index: 1000; /* Above the backdrop */
+}
+
+.menuContent {
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 20px;
+    color: white;
+    z-index: 1400; /* Above everything else */
+    position: relative;
+}
+/* Open state of the menu */
+.menu.open {
+    right: 0; /* Slide into view */
+    opacity: 1;
+    transition: right 0.3s ease-in-out, opacity 0.3s;
+}
+
+
+.hide{
+    right: -350px;
+opacity: 0;
+transition: right 0.3s ease-in-out, opacity 0.3s;}
+
+/* Close button */
+.closeButton {
+    width: 100%;
+    font-family: Anta;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.closeButton:Hover{
+    background-color: rgba(255, 255, 255, 0.145);
+    
+    border-radius: 5px;
+}
+
+/* Menu items */
+.ul {
+    list-style-type: none;
+}
+
+.li {
+    margin: 15px 0;
+}
+
+.li .a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.li .a:hover {
+    color: #f0f0f0;
+}
+
+/* Open button to trigger the menu */
+.openButton {
+    
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1100; /* Ensure it's on top of everything */
+}
+
+@media screen and (min-width: 650px){
+    .openButton{
+        display: none;
+    }
+
+    .hide{
+        display: none;
+    }
+}
+
+.openButton:hover {
+    color: grey;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav ul li:hover{
+background-color: rgba(255, 255, 255, 0.145);
+padding: 5px;
+}
+
+.nav ul li{
+    
+    padding: 5px;
+    border-radius: 5px;
+    }

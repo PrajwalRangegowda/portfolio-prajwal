@@ -27,7 +27,7 @@
     padding: 12px 24px;
     height: auto;
     background-color: rgba(11, 11, 11, 0.6);
-    z-index: 1000; /* Ensure it stays above other content */
+    z-index: 800; /* Ensure it stays above other content */
 }
 
 
