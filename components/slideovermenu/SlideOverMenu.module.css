@@ -24,6 +24,11 @@
     z-index: 1000; /* Above the backdrop */
 }
 
+@media screen and (max-width: 550px){
+    .menu{
+        width: 100%;
+    }
+}
 .menuContent {
     background-color: rgba(0, 0, 0, 0.822);
     padding: 20px;
