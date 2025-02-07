@@ -58,8 +58,8 @@
     background-color: rgba(4, 4, 4, 0.6); /* Dark background */
     z-index: 1000; /* Ensure it stays above other content */
     transition: ease-in-out 0.2s;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .scrolled {
@@ -78,8 +78,8 @@
     background-color: rgba(4, 4, 4, 0.6); /* Dark background */
     z-index: 1000; /* Ensure it stays above other content */
     transition: ease-in-out 0.2s;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 @media screen and (max-width: 650px) {
