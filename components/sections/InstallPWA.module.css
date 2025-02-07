@@ -1,4 +1,4 @@
-.pwa-install-popup {
+.pwainstallpopup {
     position: fixed;
     bottom: 20px;
     left: 20px;
@@ -10,12 +10,12 @@
     z-index: 1000;
   }
   
-  .pwa-install-popup p {
+  .pwainstallpopup p {
     margin: 0 0 10px 0;
     font-size: 1rem;
   }
   
-  .pwa-install-popup button {
+  .pwainstallpopup button {
     margin-right: 10px;
     padding: 0.5rem 1rem;
     border: none;
@@ -23,12 +23,12 @@
     cursor: pointer;
   }
   
-  .pwa-install-popup button:first-child {
+  .pwainstallpopup button:first-child {
     background-color: #0070f3;
     color: white;
   }
   
-  .pwa-install-popup button:last-child {
+  .pwainstallpopup button:last-child {
     background-color: #ccc;
     color: black;
   }

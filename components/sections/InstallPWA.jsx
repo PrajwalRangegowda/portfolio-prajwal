@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import "./installPWA.css";
+import styles from "./InstallPWA.module.css";
 import {useAuth} from '../context/AuthContext'
 
 export default function InstallPWA() {
@@ -43,7 +43,7 @@ export default function InstallPWA() {
   return (
     <>
       {showPrompt && (
-        <div className="pwa-install-popup">
+        <div className={styles.pwainstallpopup}>
           <p>Install our app for a better experience!</p>
           <button onClick={handleInstallClick}>Install</button>
           <button onClick={() => setShowPrompt(false)}>Maybe Later</button>
