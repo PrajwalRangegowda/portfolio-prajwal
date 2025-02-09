@@ -1,7 +1,14 @@
+.githubcalendar{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
 
 @media screen and (max-width: 950px) {
     .githubcalendar{
       display: none;
+
       
     }
     
@@ -10,3 +17,5 @@
   .h1{
     margin: 2rem;
   }
+
+ 

@@ -1,0 +1,2077 @@
+[
+  {
+    "object": "page",
+    "id": "194b848b-1d61-805e-aaf8-e8d7729c8b09",
+    "created_time": "2025-02-08T05:44:00.000Z",
+    "last_edited_time": "2025-02-08T05:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prajwal",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prajwal",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Prajwal-194b848b1d61805eaaf8e8d7729c8b09",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "194b848b-1d61-8035-ba8b-f70549e4ab49",
+    "created_time": "2025-02-08T03:17:00.000Z",
+    "last_edited_time": "2025-02-08T03:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "2e48e9b2-2fe0-474f-ab82-3770d8a00a05",
+          "name": "testingFramework",
+          "color": "purple"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Postman",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Postman",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Postman-194b848b1d618035ba8bf70549e4ab49",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80ed-91cc-dc6747247e60",
+    "created_time": "2025-01-31T10:50:00.000Z",
+    "last_edited_time": "2025-01-31T10:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "ae94b33a-e291-4897-b8f5-da47474f53e3",
+          "name": "projectManagementTools",
+          "color": "purple"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Jira/Notion",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Jira/Notion",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Jira-Notion-18cb848b1d6180ed91ccdc6747247e60",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8066-bc00-c6e16149ad3f",
+    "created_time": "2025-01-31T10:50:00.000Z",
+    "last_edited_time": "2025-01-31T10:50:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "fdddf284-875b-4156-a9a5-81416b53e990",
+          "name": "softwareTechnology",
+          "color": "green"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Git/GitHub",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Git/GitHub",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Git-GitHub-18cb848b1d618066bc00c6e16149ad3f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-803a-8f86-c163ea21975f",
+    "created_time": "2025-01-31T08:38:00.000Z",
+    "last_edited_time": "2025-01-31T08:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "2e48e9b2-2fe0-474f-ab82-3770d8a00a05",
+          "name": "testingFramework",
+          "color": "purple"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Jest",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Jest",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Jest-18cb848b1d61803a8f86c163ea21975f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80e0-95c5-f0bbb8ff5b76",
+    "created_time": "2025-01-31T08:35:00.000Z",
+    "last_edited_time": "2025-01-31T08:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TailWind",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TailWind",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/TailWind-18cb848b1d6180e095c5f0bbb8ff5b76",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8084-81c6-dbeac61031e1",
+    "created_time": "2025-01-31T08:35:00.000Z",
+    "last_edited_time": "2025-01-31T08:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "CSS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CSS",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/CSS-18cb848b1d61808481c6dbeac61031e1",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-807b-85c1-de0f06bfcc86",
+    "created_time": "2025-01-31T08:34:00.000Z",
+    "last_edited_time": "2025-01-31T08:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "HTML5",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "HTML5",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/HTML5-18cb848b1d61807b85c1de0f06bfcc86",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8006-b8cb-d9231e9c0da5",
+    "created_time": "2025-01-31T08:34:00.000Z",
+    "last_edited_time": "2025-01-31T08:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "cadef83f-d268-4d7f-8f5b-90dcf6bcb0ab",
+          "name": "cloudTechnologies",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GCP",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GCP",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/GCP-18cb848b1d618006b8cbd9231e9c0da5",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8002-aacf-d27fddf7871c",
+    "created_time": "2025-01-31T08:33:00.000Z",
+    "last_edited_time": "2025-01-31T08:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "cadef83f-d268-4d7f-8f5b-90dcf6bcb0ab",
+          "name": "cloudTechnologies",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AWS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AWS",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AWS-18cb848b1d618002aacfd27fddf7871c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80d9-9c2e-e53024f3cb2c",
+    "created_time": "2025-01-31T08:33:00.000Z",
+    "last_edited_time": "2025-01-31T08:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "cadef83f-d268-4d7f-8f5b-90dcf6bcb0ab",
+          "name": "cloudTechnologies",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Azure",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Azure",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Azure-18cb848b1d6180d99c2ee53024f3cb2c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80b3-9c82-fa1ec4f0df55",
+    "created_time": "2025-01-31T08:33:00.000Z",
+    "last_edited_time": "2025-01-31T08:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "cadef83f-d268-4d7f-8f5b-90dcf6bcb0ab",
+          "name": "cloudTechnologies",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Vercel",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Vercel",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Vercel-18cb848b1d6180b39c82fa1ec4f0df55",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-806a-bdcb-f85dad7514b5",
+    "created_time": "2025-01-31T08:31:00.000Z",
+    "last_edited_time": "2025-01-31T08:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "d2d2a587-e7f3-45f8-a5fc-5410043a9821",
+          "name": "designSoftware",
+          "color": "pink"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SketchUp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SketchUp",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/SketchUp-18cb848b1d61806abdcbf85dad7514b5",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8023-abe0-d1c24f889849",
+    "created_time": "2025-01-31T08:30:00.000Z",
+    "last_edited_time": "2025-01-31T08:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "554007cf-19aa-4992-841c-307799285360",
+          "name": "renderingSoftware",
+          "color": "brown"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Twinmotion",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Twinmotion",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Twinmotion-18cb848b1d618023abe0d1c24f889849",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-802a-bf5c-ea2572456d11",
+    "created_time": "2025-01-31T08:30:00.000Z",
+    "last_edited_time": "2025-01-31T08:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "554007cf-19aa-4992-841c-307799285360",
+          "name": "renderingSoftware",
+          "color": "brown"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "VRay",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "VRay",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/VRay-18cb848b1d61802abf5cea2572456d11",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8068-b68c-dd48b4da4254",
+    "created_time": "2025-01-31T08:30:00.000Z",
+    "last_edited_time": "2025-01-31T08:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Grasshopper",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Grasshopper",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Grasshopper-18cb848b1d618068b68cdd48b4da4254",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80a6-9dd0-f514f1087c73",
+    "created_time": "2025-01-31T08:30:00.000Z",
+    "last_edited_time": "2025-01-31T08:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "554007cf-19aa-4992-841c-307799285360",
+          "name": "renderingSoftware",
+          "color": "brown"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Lumion ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Lumion ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Lumion-18cb848b1d6180a69dd0f514f1087c73",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8090-b3fd-f38c424c1c7f",
+    "created_time": "2025-01-31T08:30:00.000Z",
+    "last_edited_time": "2025-01-31T08:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "d2d2a587-e7f3-45f8-a5fc-5410043a9821",
+          "name": "designSoftware",
+          "color": "pink"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Illustrator",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Illustrator",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Illustrator-18cb848b1d618090b3fdf38c424c1c7f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-805b-af62-c25e3f2fbef7",
+    "created_time": "2025-01-31T08:29:00.000Z",
+    "last_edited_time": "2025-01-31T08:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "d2d2a587-e7f3-45f8-a5fc-5410043a9821",
+          "name": "designSoftware",
+          "color": "pink"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "PhotoShop",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "PhotoShop",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/PhotoShop-18cb848b1d61805baf62c25e3f2fbef7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80f3-b4fa-ecc754e2c704",
+    "created_time": "2025-01-31T08:29:00.000Z",
+    "last_edited_time": "2025-01-31T08:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "d2d2a587-e7f3-45f8-a5fc-5410043a9821",
+          "name": "designSoftware",
+          "color": "pink"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "InDesign",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "InDesign",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/InDesign-18cb848b1d6180f3b4faecc754e2c704",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8065-b699-d948f6ee1784",
+    "created_time": "2025-01-31T08:29:00.000Z",
+    "last_edited_time": "2025-01-31T08:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Python",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Python",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Python-18cb848b1d618065b699d948f6ee1784",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8033-9ee9-e661533cea0a",
+    "created_time": "2025-01-31T08:29:00.000Z",
+    "last_edited_time": "2025-01-31T08:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "13975775-49d0-4fc2-b39d-ec7f2bf428bf",
+          "name": "designDocumentation",
+          "color": "gray"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AutoCAD",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AutoCAD",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AutoCAD-18cb848b1d6180339ee9e661533cea0a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80dc-ab81-df6f146c47b5",
+    "created_time": "2025-01-31T08:28:00.000Z",
+    "last_edited_time": "2025-01-31T08:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "13975775-49d0-4fc2-b39d-ec7f2bf428bf",
+          "name": "designDocumentation",
+          "color": "gray"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Revit Architecture",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Revit Architecture",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Revit-Architecture-18cb848b1d6180dcab81df6f146c47b5",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8050-975c-f7031c24acf1",
+    "created_time": "2025-01-31T08:28:00.000Z",
+    "last_edited_time": "2025-01-31T08:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "d2d2a587-e7f3-45f8-a5fc-5410043a9821",
+          "name": "designSoftware",
+          "color": "pink"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Rhino 3D",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Rhino 3D",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Rhino-3D-18cb848b1d618050975cf7031c24acf1",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8009-a202-f0144d30dd59",
+    "created_time": "2025-01-31T08:28:00.000Z",
+    "last_edited_time": "2025-01-31T08:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "acdb36f7-6ceb-447e-8302-2b78d6d5d04c",
+          "name": "codingSoftware",
+          "color": "yellow"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Visual Studio",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Visual Studio",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Visual-Studio-18cb848b1d618009a202f0144d30dd59",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8079-a6cd-f734edd70629",
+    "created_time": "2025-01-31T08:28:00.000Z",
+    "last_edited_time": "2025-01-31T08:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "acdb36f7-6ceb-447e-8302-2b78d6d5d04c",
+          "name": "codingSoftware",
+          "color": "yellow"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Visual Studio Code",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Visual Studio Code",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Visual-Studio-Code-18cb848b1d618079a6cdf734edd70629",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8096-8b87-d119870e9d4a",
+    "created_time": "2025-01-31T08:27:00.000Z",
+    "last_edited_time": "2025-01-31T08:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "0bc24479-cc1d-4f32-9a68-5ddabad4d433",
+          "name": "softwareFramework",
+          "color": "orange"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ASP.NET",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ASP.NET",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ASP-NET-18cb848b1d6180968b87d119870e9d4a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8066-9014-fb08f5f9e502",
+    "created_time": "2025-01-31T08:27:00.000Z",
+    "last_edited_time": "2025-01-31T08:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "fdddf284-875b-4156-a9a5-81416b53e990",
+          "name": "softwareTechnology",
+          "color": "green"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "MongoDB",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "MongoDB",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/MongoDB-18cb848b1d6180669014fb08f5f9e502",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80fe-a196-ca896de8b896",
+    "created_time": "2025-01-31T08:27:00.000Z",
+    "last_edited_time": "2025-01-31T08:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "fdddf284-875b-4156-a9a5-81416b53e990",
+          "name": "softwareTechnology",
+          "color": "green"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Nextjs",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Nextjs",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Nextjs-18cb848b1d6180fea196ca896de8b896",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-80ab-8af6-fc819ee3852e",
+    "created_time": "2025-01-31T08:26:00.000Z",
+    "last_edited_time": "2025-01-31T08:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "fdddf284-875b-4156-a9a5-81416b53e990",
+          "name": "softwareTechnology",
+          "color": "green"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "React",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "React",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/React-18cb848b1d6180ab8af6fc819ee3852e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-802e-9ad7-d5da0dac46f8",
+    "created_time": "2025-01-31T08:25:00.000Z",
+    "last_edited_time": "2025-01-31T08:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JavaScript",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JavaScript",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/JavaScript-18cb848b1d61802e9ad7d5da0dac46f8",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8087-abf1-d1c9f273bb30",
+    "created_time": "2025-01-31T08:25:00.000Z",
+    "last_edited_time": "2025-01-31T08:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TypeScript",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TypeScript",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/TypeScript-18cb848b1d618087abf1d1c9f273bb30",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "18cb848b-1d61-8092-8a30-df133af3d9d5",
+    "created_time": "2025-01-31T08:23:00.000Z",
+    "last_edited_time": "2025-02-08T03:19:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "5518de07-4884-420e-bf0b-f04a5aec7ee1"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "18cb848b-1d61-808d-a40a-d0569820241a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Publish": {
+        "id": "bMIC",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Category": {
+        "id": "wn%3FH",
+        "type": "select",
+        "select": {
+          "id": "1bc88492-a339-45bf-8153-597cd91a9c4a",
+          "name": "scriptingLanguage",
+          "color": "red"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "C#",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "C#",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/C-18cb848b1d6180928a30df133af3d9d5",
+    "public_url": null
+  }
+]

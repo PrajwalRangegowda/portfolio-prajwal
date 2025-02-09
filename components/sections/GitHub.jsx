@@ -3,7 +3,7 @@ import styles from "./GitHubCalendar.module.css";
 import { useAuth } from '../context/AuthContext';
 
 export default function GitHub() {
-  const { user, status, session } = useAuth();
+  const { session } = useAuth();
 
   // If no session, return null (nothing will render)
   if (!session) {
@@ -11,12 +11,12 @@ export default function GitHub() {
   }
 
   // Extract the first name safely
-  const firstName = user?.name?.split(" ")[0] ?? "";
+  
 
   return (
     <div className={styles.githubcalendar}>
       <h1 className={styles.h1}>
-        Hi! {firstName} Check out Prajwal's GitHub Contributions
+        GitHub Contributions Calendar
       </h1>
       <GitHubCalendar username="PrajwalRangegowda" />
     </div>

@@ -2,6 +2,8 @@
 import styles from "./IntroSection.module.css";
 import { motion } from "framer-motion";
 import GitHub from "./sections/GitHub";
+import SkillSection from "./SkillSection";
+import { Typewriter } from 'react-simple-typewriter';
 
 
 export default function IntroSection() {
@@ -83,6 +85,8 @@ export default function IntroSection() {
           Let's Connect
         </motion.a>
       </motion.div>
+      
+      <SkillSection />
       <GitHub/>
     </motion.section>
   );

@@ -1,0 +1,61 @@
+.icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.skillsContainer {
+    margin: 3rem;
+  display: block;
+  flex-grow: 1;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  justify-content: left;
+}
+
+.skillsContainer ul{
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+
+  flex-wrap: wrap;
+}
+
+.skillsContainer p {
+  font-family: Anta;
+ 
+}
+
+.skillsContainer h3{
+    font-family: Anta;
+}
+
+.skillsContainer p:hover {
+    display: inline;
+    
+}
+
+.skillsContainer li {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  gap: 10px;
+}
+
+.categoryDiv{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: rgba(251, 251, 251, 0.563);
+    text-align: center;
+    place-items: center;
+    justify-content: space-between;
+
+}
