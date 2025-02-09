@@ -30,6 +30,7 @@
 
 .skillsContainer h3{
     font-family: Anta;
+    font-weight: 100;
 }
 
 .skillsContainer p:hover {
@@ -58,4 +59,41 @@
     place-items: center;
     justify-content: space-between;
 
+}
+
+@media  screen and (max-width:600px) {
+    .skillsContainer{
+        margin: 10px 0;
+        padding: 0px;
+        
+    }
+
+    .skillsContainer li {
+        padding: 15px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        place-items: left;
+        gap: 5px;
+      }
+
+      .skillsContainer ul{
+        display: flex;
+      text-align: center;
+      justify-content: right;
+      place-items: center;
+    
+      flex-wrap: wrap;
+    }
+
+    .skillsContainer h3{
+        font-family: Anta;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    .icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
